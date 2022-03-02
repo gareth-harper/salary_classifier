@@ -31,13 +31,20 @@ Once the data was collected, it was cleaned using various techniques learned thr
 
 <p align="center"><i><sub>Salary Distribution of Data-Related Jobs. UK. January 2022.</sub></i></p>
 <br>
+<br>
+<p align="center" width="100%">
+<kbd><img src="images/02 City Count.png" width="700"  /></kbd>
+</p>
+
+<p align="center"><i><sub>Top 10 Locations of Data-Related Jobs. UK. January 2022.</sub></i></p>
+<br>
 
 Summary of the data cleaning steps:
 * Only a small number of the scraped results had salary information - only these were used for modeling.
 * Not all of the salaries were yearly but hourly or weekly, and these were removed.
 * Text and unicode characters were removed from the scraped salary information.
 * Where a salary range was provided, the average was computed and substituted.
-* The median salary was determined, and a new binary variable was created based on the median (below median = 'low' assigned 0, above median = 'high, assigned 1).
+* The median salary was determined, and a new binary variable was created based on the median (below median = 'low' assigned 0, above median = 'high' assigned 1).
 
 ### Classification Models
 
@@ -53,6 +60,14 @@ I was able to obtain the most important features that can allow the salary to be
 - job level = Senior, Graduate, Junior, and
 - job position = Data Engineer, Data Scientist, and Data Analyst
 - The location of the job was not a particularly useful predictor, although there did seem to be a small effect whether the job was based in London or not.
+
+<br>
+<p align="center" width="100%">
+<kbd><img src="images/03 Feature Importance.png" width="400"  /></kbd>
+</p>
+
+<p align="center"><i><sub>Most Important Features Predicting Salary of Data-Related Jobs. UK. January 2022.</sub></i></p>
+<br>
 
 We were also required to tune our models so that we would have higher confidence in telling someone incorrectly that they would get a lower salary job over telling them incorrectly that they would get a high salary job. The tradeoff with this is that ‘peace-of-mind’ is gained at the expense of precision.
 
