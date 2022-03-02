@@ -63,13 +63,28 @@ I was able to obtain the most important features that can allow the salary to be
 
 <br>
 <p align="center" width="100%">
-<kbd><img src="images/03 Feature Importance.png" width="200"  /></kbd>
+<kbd><img src="images/03 Feature Importance.png" width="300"  /></kbd>
 </p>
 
 <p align="center"><i><sub>Most Important Features Predicting Salary of Data-Related Jobs. UK. January 2022.</sub></i></p>
 <br>
 
 We were also required to tune our models so that we would have higher confidence in telling someone incorrectly that they would get a lower salary job over telling them incorrectly that they would get a high salary job. The tradeoff with this is that ‘peace-of-mind’ is gained at the expense of precision.
+
+<br>
+<p align="center" width="100%">
+<kbd><img src="images/04 Confusion Matrix - original.png" width="500"  /></kbd>
+</p>
+
+<p align="center"><i><sub>Confusion Matrix (Train Data). Classification threshold of 0.5 used.</sub></i></p>
+<br>
+<br>
+<p align="center" width="100%">
+<kbd><img src="images/PR-AUROC Curvers - original.png" width="700"  /></kbd>
+</p>
+
+<p align="center"><i><sub>Precision-Recall and AUC-ROC curves for classification thresholds between 0 and 1. The dotted black line represents baseline performance</sub></i></p>
+<br>
 
 `Precision = TP / (TP + FP)`
 
