@@ -73,7 +73,7 @@ We were also required to tune our models so that we would have higher confidence
 
 <br>
 <p align="center" width="100%">
-<kbd><img src="images/04 Confusion Matrix - original.png" width="300"  /></kbd>
+<kbd><img src="images/04 Confusion Matrix - original.png" width="400"  /></kbd>
 </p>
 
 <p align="center"><i><sub>Confusion Matrix (Train Data). Classification threshold of 0.5 used.</sub></i></p>
@@ -96,14 +96,14 @@ If the number of FN values decreases (and the value of FP increases), model reca
 
 <br>
 <p align="center" width="100%">
-<kbd><img src="images/06 Confusion Matrix - threshold.png" width="300"  /></kbd>
+<kbd><img src="images/06 Confusion Matrix - threshold.png" width="400"  /></kbd>
 </p>
 
 <p align="center"><i><sub>Confusion Matrix (Train Data). Classification threshold of 0.8 used.</sub></i></p>
 <br>
 <br>
 <p align="center" width="100%">
-<kbd><img src="images/05 PR-AUROC Curvers - original.png" width="500"  /></kbd>
+<kbd><img src="images/07 PR-AUROC Curvers - threshold.png" width="500"  /></kbd>
 </p>
 
 <p align="center"><i><sub>Precision-Recall and AUC-ROC curves. Now we can see Class 1 is predicted at the expense of Class 0.</sub></i></p>
