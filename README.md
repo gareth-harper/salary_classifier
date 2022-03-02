@@ -73,17 +73,17 @@ We were also required to tune our models so that we would have higher confidence
 
 <br>
 <p align="center" width="100%">
-<kbd><img src="images/04 Confusion Matrix - original.png" width="400"  /></kbd>
+<kbd><img src="images/04 Confusion Matrix - original.png" width="300"  /></kbd>
 </p>
 
 <p align="center"><i><sub>Confusion Matrix (Train Data). Classification threshold of 0.5 used.</sub></i></p>
 <br>
 <br>
 <p align="center" width="100%">
-<kbd><img src="images/05 PR-AUROC Curvers - original.png" width="700"  /></kbd>
+<kbd><img src="images/05 PR-AUROC Curvers - original.png" width="500"  /></kbd>
 </p>
 
-<p align="center"><i><sub>Precision-Recall and AUC-ROC curves for classification thresholds between 0 and 1. The dotted black line represents baseline performance</sub></i></p>
+<p align="center"><i><sub>Precision-Recall and AUC-ROC curves for classification thresholds between 0 and 1. The dotted black line represents baseline performance.</sub></i></p>
 <br>
 
 `Precision = TP / (TP + FP)`
@@ -93,6 +93,21 @@ We were also required to tune our models so that we would have higher confidence
 The tradeoff with telling a client incorrectly that they would get a lower salary job over telling a client incorrectly that they would get a high salary job, is that the model recall (The ability of the classifier to correctly identify the current class) increases at the expense of the model precision (The ability of the classifier to avoid labeling a class as a member of another class).
 
 If the number of FN values decreases (and the value of FP increases), model recall increases while model precision decreases.
+
+<br>
+<p align="center" width="100%">
+<kbd><img src="images/06 Confusion Matrix - threshold.png" width="300"  /></kbd>
+</p>
+
+<p align="center"><i><sub>Confusion Matrix (Train Data). Classification threshold of 0.8 used.</sub></i></p>
+<br>
+<br>
+<p align="center" width="100%">
+<kbd><img src="images/05 PR-AUROC Curvers - original.png" width="500"  /></kbd>
+</p>
+
+<p align="center"><i><sub>Precision-Recall and AUC-ROC curves. Now we can see Class 1 is predicted at the expense of Class 0.</sub></i></p>
+<br>
 
 ### Conclusion
 
