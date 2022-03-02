@@ -63,7 +63,7 @@ I was able to obtain the most important features that can allow the salary to be
 
 <br>
 <p align="center" width="100%">
-<kbd><img src="images/03 Feature Importance.png" width="400"  /></kbd>
+<kbd><img src="images/03 Feature Importance.png" width="200"  /></kbd>
 </p>
 
 <p align="center"><i><sub>Most Important Features Predicting Salary of Data-Related Jobs. UK. January 2022.</sub></i></p>
