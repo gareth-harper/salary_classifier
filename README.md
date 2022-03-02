@@ -73,14 +73,14 @@ We were also required to tune our models so that we would have higher confidence
 
 <br>
 <p align="center" width="100%">
-<kbd><img src="images/04 Confusion Matrix - original.png" width="500"  /></kbd>
+<kbd><img src="images/04 Confusion Matrix - original.png" width="400"  /></kbd>
 </p>
 
 <p align="center"><i><sub>Confusion Matrix (Train Data). Classification threshold of 0.5 used.</sub></i></p>
 <br>
 <br>
 <p align="center" width="100%">
-<kbd><img src="images/PR-AUROC Curvers - original.png" width="700"  /></kbd>
+<kbd><img src="images/05 PR-AUROC Curvers - original.png" width="700"  /></kbd>
 </p>
 
 <p align="center"><i><sub>Precision-Recall and AUC-ROC curves for classification thresholds between 0 and 1. The dotted black line represents baseline performance</sub></i></p>
