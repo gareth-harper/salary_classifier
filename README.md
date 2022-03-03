@@ -3,7 +3,7 @@
 ### Introduction
 
 One of my projects for the General Assembly Data Science Immersive course was to scrape job listings from a job aggregation website and apply machine learning algorithms to predict salaries for Data Science related roles in the United Kingdom.
-This project was completed in Jnuary 2022.
+This project was completed in January 2022.
 
 ### Goals
 
