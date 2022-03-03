@@ -49,7 +49,7 @@ Summary of the data cleaning steps:
 ### Classification Models
 
 I built three separate classification models in order to compare the results between models, and also to use my best performing model to investigate the data further to obtain additional insights. My best performing model obtained a mean cross-validated accuracy score around 68%, which is a significant improvement from the baseline accuracy.
-The models evalauted include:
+The models evaluated include:
 * Logistic Regression (0.68)
 * Random Forest Classifier (0.67)
 * Decision Tree Classifier (0.66)
